@@ -1,0 +1,45 @@
+.background {
+	position: absolute;
+	z-index: 1;
+}
+
+.frameopen {
+	position:absolute;
+	width:120px;
+	height:120px;
+	bottom:75px;
+	right:55px;
+	z-index:2;
+}
+
+.pdf_logo {
+	position: relative;
+	display: block;
+	margin: auto;
+	left: 0px;
+	top: 4px;
+	height: 108px;
+	width: 108px;
+	animation-name: pulse;
+    -webkit-animation-name: pulse;
+	animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+	animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+.frame {
+	position:absolute;
+	display:none;
+	z-index:3;
+}
+
+.frameclose {
+	position: absolute;
+	right:25px;
+	top:10px;
+	color: #fff;
+	display:none;
+	z-index:4;
+}

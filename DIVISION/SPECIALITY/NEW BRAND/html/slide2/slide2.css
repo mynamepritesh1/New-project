@@ -1,0 +1,13 @@
+.background {
+	position: absolute;
+	z-index: 1;
+}
+
+.positionVideo {
+	position: relative;
+	display: block;
+	margin: auto;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
